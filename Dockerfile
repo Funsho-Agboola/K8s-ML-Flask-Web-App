@@ -11,4 +11,6 @@ RUN pip3 install -r requirements.txt
 # copy every content from the local file to the image
 COPY . .
 
+EXPOSE 5000
+#
 CMD [ "python3", "main.py"]
